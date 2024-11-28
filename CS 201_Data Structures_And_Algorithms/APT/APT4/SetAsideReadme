@@ -1,0 +1,11 @@
+Write method common that finds each word that appears in every element of parameter String[] list and 
+returns a String containing these words in alphabetical order, each separated by a space.
+Each word in the string returned should be unique/different.
+
+Each element of list is a string of words, each separated by a space. 
+If there are no words that appear in each and every element of list return an empty string: "". 
+See the examples for details.
+
+Note that Arrays.sort(a) sorts an array a and Collections.sort(alist) sorts an ArrayList alist.
+
+Also String.join(" ",collection) returns a string with each element of collection separated by a space.
