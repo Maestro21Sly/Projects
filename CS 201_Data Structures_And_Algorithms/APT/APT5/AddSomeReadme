@@ -1,0 +1,24 @@
+Problem Statement
+
+Complete method splice that creates a copy of the first size nodes of a linked list and 
+splices them into the list after the first size nodes so that the total number of nodes in the list increases by size.
+For example, the list [1,2,3,4,5] will change to the list [1,2,3,1,2,3,4,5] when size == 3, to the list [1,1,2,3,4,5] 
+when size == 1 and to [1,2,3,4,5,1,2,3,4,5] when size == 5.
+
+Return a pointer to the first node of the changed list.
+
+The ListNode class will be accessible when your method is tested.
+
+
+public class ListNode {
+    int info;
+    ListNode next;
+    ListNode(int x){
+        info = x;
+    }
+    ListNode(int x, ListNode node){
+        info = x;
+	next = node;
+    }
+}
+
