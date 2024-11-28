@@ -1,14 +1,15 @@
 The frequency with which data occurs is sometimes an important statistic. 
-In this problem you'll determine how frequently strings occur and 
-return an array representing the frequencies of each different/unique string. 
-The array returned contains as many frequencies as there are unique strings. 
-The returned frequencies represent an alphabetic/lexicographic ordering of the unique words, 
-so the first frequency is how many times the alphabetically first word occurs and t
-he last frequency is the number of times the alphabetically last word occurs.
+In this problem you are given an array of strings and must determine how frequently the strings occur. 
+Return an array of strings that is sorted (ordered) by frequency. 
+The first element of the returned array is the most frequently occurring string, the last element is the least frequently occurring. 
+Ties are broken by listing strings in lexicographic/alphabetical order. 
+The returned array contains one occurrence of each unique string from the array parameter.
 Consider these strings (quotes for clarity, they're not part of the strings).
 
 
-{"apple", "pear", "cherry", "apple", "cherry", "pear", "apple", "banana"}
+{"apple", "pear", "cherry", "apple", "pear", "apple", "banana"}
 
-The array returned is {3,1,2,2} since the alphabetically first word is "apple" which occurs 3 times; 
-the second word alphabetically is "banana" which occurs once, and the other words each occur twice.
+The array returned is:
+   { "apple", "pear", "banana", "cherry" }
+since the most frequently occurring string is "apple" which occurs 3 times; 
+the string "pear" occurs twice and the other strings each occur once so they are returned in alphabetical order.
