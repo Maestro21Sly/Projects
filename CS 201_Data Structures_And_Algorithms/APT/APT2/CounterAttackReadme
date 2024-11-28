@@ -1,0 +1,2 @@
+Count how many times each element of words occurs as a white-space delimited string in parameter str. 
+Return the number of occurrences in an int[] so that the number of times that words[k] occurs is given by the kth value in the returned array.
