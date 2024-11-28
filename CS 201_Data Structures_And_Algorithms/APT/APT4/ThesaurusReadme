@@ -1,0 +1,14 @@
+An entry in a Thesaurus is a list of words that are all synonyms. 
+Each entry contains no duplicates within it. It is possible that two entries might have some common words, 
+but the editors (who are somewhat cheap) have decided that if any two entries have 2 or more words in common 
+then they should be combined into a single entry.
+This editing process may produce new entries which can be combined. 
+The final Thesaurus must contain no pair of entries that have 2 or more words in common. 
+Of course, each entry must contain no duplicates.
+
+Create a class Thesaurus that contains a method edit that is given a String[] entry, the entries in the original Thesaurus. 
+The method returns the edited Thesaurus as a String[]. 
+Each element of entry has no leading or trailing spaces and has its words separated by a single space. 
+Each element of the return should also have no leading or trailing spaces and have its words separated by a single space. 
+In addition, the words within each element of the return must be in alphabetical order, 
+and the elements in the return must appear in alphabetical order.
