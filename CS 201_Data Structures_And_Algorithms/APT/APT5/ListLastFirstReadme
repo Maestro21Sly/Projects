@@ -1,0 +1,5 @@
+Write a method move that moves the last node of a linked list to the front of the list, leaving the order of the other nodes unchanged.
+You can create a new list with new nodes or 
+you can simply move the last node of the ListNode parameter to the front and return the modified list.
+
+The ListNode class will be accessible when your method is tested.
