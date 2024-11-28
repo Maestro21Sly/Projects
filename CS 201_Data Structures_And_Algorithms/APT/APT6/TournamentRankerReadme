@@ -1,0 +1,21 @@
+A single elimination tournament consists of several rounds. 
+In the first round, each competitor plays against one other competitor and the loser is eliminated. 
+
+In the second round, each competitor that was not eliminated in the first round plays against another such competitor, 
+and the loser is again eliminated. This process is repeated, eliminating half of the remaining competitors each round, 
+until precisely one competitor remains. This competitor is declared the champion.
+In practice, one is often interested in ranking all the competitors in a tournament, not just the champion. 
+Here is one way of doing this:
+
+If competitor A won more games than competitor B did in the tournament, then A should be ranked higher than B.
+If competitor A and competitor B won the same number of games in the tournament, 
+recursively compare the ranks of the competitor C that eliminated A and the competitor D that eliminated B. 
+Then, A should be ranked above B if and only if C is ranked above D.
+The intuition behind the second rule is that losing to a good competitor is better than losing to a bad competitor.
+You must implement this scheme for ranking the competitors in a single elimination tournament. 
+You will be given a String[] names and a String[] lostTo. 
+The former argument gives the names of the competitors in a tournament, 
+and the latter argument describes if and how each competitor was eliminated. 
+Specifically, the ith element of lostTo will be the name of the competitor that beat the ith competitor in names, 
+or it will be "" if that competitor never lost. 
+You should return a String[] giving the names of the competitors, sorted from highest rank to lowest rank as described above.
