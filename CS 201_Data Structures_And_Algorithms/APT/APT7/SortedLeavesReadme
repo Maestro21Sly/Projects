@@ -1,0 +1,9 @@
+Write method values that returns the values stored in the leaves of its tree parameter tree. 
+Each value stored in in a leaf is a number between 65 and 90, inclusive, 
+and should be interpreted as a corresponding letter "A" through "Z".
+The values should be returned as a sorted array of strings, each string a single letter "A" through "Z".
+
+Leaves have no children.
+
+In the tree diagrammed below, the call values(tree) should return {"D", "E", "K", "U"} 
+since the values stored in the leaves are 68, 85, 75, and 69, and these correspond to "D", "U", "K", and "E", respectively.
