@@ -1,0 +1,10 @@
+Write method getLeaves that finds and removes the leaves in a binary tree, 
+repeating this process in a sequence of rounds until the tree is empty. 
+The method returns an array representing each round of leaf removal until the tree is empty.
+Leaves should be visited using an in-order traversal (first left, then right). 
+Each round of leaf-removal is represented by a string with each leaf value removed separated by a space. 
+See the examples for details.
+
+The returned array contains as many strings are there are rounds of leaf-removal before the tree is empty.
+
+The TreeNode class will be accessible when your method is tested.
