@@ -1,0 +1,5 @@
+Write a method equal that returns 1 if its two linked list parameters are equal, and returns 0 if they are not equal.
+Two linked lists are considered equal if they have the same number of nodes 
+and each node in the ith position in list a1 contains the same value is that contained in the ithe node of a2
+
+The ListNode class will be accessible when your method is tested.
