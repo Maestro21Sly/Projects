@@ -1,0 +1,5 @@
+Write method uniqify to remove all duplicate values from a sorted linked list of integer values, 
+leaving the unique values occurring once and in order. 
+For example, the list represented by [1,1,2,3,3,3,4] would be changed to [1,2,3,4]. 
+You should remove nodes and relink nodes rather than creating a new list.
+The ListNode class will be accessible when your method is tested
