@@ -1,0 +1,2 @@
+Write a method sum that returns the sum of the values greater than thresh in its list parameter, a linked list of int values;
+The ListNode class will be accessible when your method is tested
