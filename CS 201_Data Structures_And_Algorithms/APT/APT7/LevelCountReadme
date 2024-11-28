@@ -1,0 +1,6 @@
+Write method count that returns the number of nodes in a tree at the level specified by parameter level. 
+The root is at level 0, and the root's children are at level 1. 
+In general, for any node, it's level is one more than its parent's level.
+In the tree diagrammed below, the call count(t,1) should return 2 since 6 and 12 are at level 1. 
+The call count(t,3) should return 0 since there are no nodes at level 3. 
+The call count(t,2) should return 3 -- each leaf is at level 3.
