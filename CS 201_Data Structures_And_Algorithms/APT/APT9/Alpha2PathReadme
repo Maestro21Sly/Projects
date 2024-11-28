@@ -1,0 +1,4 @@
+You must determine if there is an alphapath through a maze. 
+An alphapath starts at the letter 'A', ends at the letter 'Z', 
+and is a sequence of horizontally or vertically adjacent steps in which each step goes to the next letter of the alphabet.
+Given a maze as a grid of letters, return "YES" if there is an alphapath and "NO" if there is not an alphapath.
