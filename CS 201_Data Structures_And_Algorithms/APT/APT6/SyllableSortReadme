@@ -1,0 +1,24 @@
+Syllable sorting is a method of sorting words based on their syllabic decompositions. 
+The first step is to decompose each word into syllables. 
+A syllable is defined as a maximal non-empty substring of consonants followed by a maximal non-empty substring of vowels. 
+The only vowels are 'a', 'e', 'i', 'o' and 'u'. All other letters are considered consonants. 
+All words will start with a consonant and end with a vowel.
+To compare two words syllabically, first decompose them into sequences of syllables. 
+For example, the words "zcdbadaerfe" and "foubsyudba" decompose as follows:
+
+"zcdbadaerfe" = {"zcdba", "dae", "rfe"}
+"foubsyudba" = {"fou", "bsyu", "dba"}
+Then, sort each sequence of syllables alphabetically. In the above example, the sequences become:
+
+{"dae", "rfe", "zcdba"}
+{"bsyu", "dba", "fou"}
+Then, compare these sorted sequences lexicographically. 
+A sequence S1 comes before a sequence S2 lexicographically 
+if S1 has an alphabetically earlier element at the first index at which they differ. 
+In the above example, the second sequence comes earlier lexicographically because "bsyu" comes before "dae" alphabetically.
+
+If two sorted sequences are equal, then compare their corresponding unsorted sequences instead.
+For example, the words "daba" and "bada" decompose into the same sorted sequence {"ba", "da"}. 
+Compare the unsorted sequences {"da", "ba"} and {"ba", "da"} to determine that "bada" comes before "daba".
+
+You are given a String[] words. Sort the words using the method above and return the resulting String[].
