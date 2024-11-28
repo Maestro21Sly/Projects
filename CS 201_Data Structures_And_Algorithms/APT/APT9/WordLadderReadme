@@ -1,0 +1,13 @@
+A word ladder is a sequence of words in which each word can be transformed into the next word by changing one letter. 
+For example, the word ladder below changes 'lot' to 'log'.
+   lot dot dog log
+This is not the shortest word-ladder between 'lot' and 'log' since the former 
+can be immediately changed to the latter yielding a word ladder of length two:
+  lot log
+The first and last words in a word ladder are the anchor rungs of the ladder. 
+Any other words are interior rungs. For example, there are three interior rungs in the ladder below between 'smile' and 'evote'.
+   smile smite smote emote evote
+In this problem you'll write a method that has parameters representing potential interior rungs: 
+an array of strings (these may be nonsense or English words), and the anchor rungs --- two strings. 
+Your code must determine whether there exists a minimal-length ladder between the exterior rungs that uses at least one interior rung. 
+If there is any such ladder the method returns "ladder", otherwise it should return "none".
