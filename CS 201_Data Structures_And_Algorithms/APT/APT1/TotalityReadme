@@ -1,1 +1,4 @@
-
+The phrases even keeled, odd job, and total eclipse might come to mind as you solve this APT. 
+Given an array of int values, return the sum of those values that are at odd indexes, even indexes, 
+or every index depending on whether the value of the String stype is "odd", "even", or "all", respectively. 
+See examples for details.
