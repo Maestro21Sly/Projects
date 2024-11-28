@@ -1,0 +1,9 @@
+If you want to write a message anonymously, 
+one way to do it is to cut out letters from headlines in a newspaper and paste them onto a blank piece of paper 
+to form the message you want to write. 
+Given several headlines that you have cut out, 
+determine how many messages from a list you can write using the letters from the headlines. 
+You should only consider each message by itself and not in conjunction with the others, see example 2.
+Write the method howMany which takes as parameters a String[] headlines 
+containing the headlines which you have cut out as well as a String[] messages with the messages you may want to write, 
+and returns an int which is the total number of messages you can write.
