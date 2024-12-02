@@ -22,7 +22,7 @@ int servoRightPin = 11;
 
 // Set up for Thermal sensor:
 #include <Wire.h> // I2C library, required for MLX90614
-#include <SparkFunMLX90614.h> //Click here to get the library: http://librarymanager/All#Qwiic_IR_Thermometer by SparkFun
+#include <SparkFunMLX90614.h> 
 IRTherm therm; // Create an IRTherm object to interact with throughout
 float tempThreshold = 58;
 
